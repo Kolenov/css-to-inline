@@ -1,0 +1,9 @@
+{
+  "name": "css-to-inline",
+  "version": "1.0.0",
+  "description": "Tansform css styles to inline for e-mail layout",
+  "main": "index.js",
+  "repository": "https://github.com/Kolenov/css-to-inline.git",
+  "author": "Eduard Kolenov <kolenov.ed@gmail.com>",
+  "license": "MIT"
+}
