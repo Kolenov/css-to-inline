@@ -1,0 +1,30 @@
+body + * {
+  border: 1px solid;
+}
+
+%zerro {
+  border: 0;
+  border-collapse: collapse;
+  font-size: 0;
+  height: 0;
+  line-height: 0;
+  margin: 0;
+  padding: 0;
+  width: 0;
+}
+
+table {
+  @extend %zerro;
+
+  > * {
+    @extend %zerro;
+  }
+
+  tr > * {
+    @extend %zerro;
+  }
+
+  td > * {
+    @extend %zerro;
+  }
+}
