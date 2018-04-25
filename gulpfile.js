@@ -1,4 +1,4 @@
-const gulp = require('gulp'),
+var gulp = require('gulp'),
   inlineCss = require('gulp-inline-css');
 
 gulp.task('default', function () {

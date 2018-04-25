@@ -1,10 +1,67 @@
-table, table > *, table tr > *, table td > * {
+table {
   border: 0;
   border-collapse: collapse;
-  font-size: 0;
-  height: 0;
-  line-height: 0;
   margin: 0;
   padding: 0;
-  width: 0;
+}
+
+table.body-wrap {
+  width: 100%;
+}
+
+table {
+  color: #333;
+  font: 10px Arial, sans-serif;
+  line-height: 30px;
+  -webkit-text-size-adjust: none;
+}
+
+a, span {
+  color: #333;
+  font: 10px Arial, sans-serif;
+  line-height: 30px;
+  -webkit-text-size-adjust: none;
+  display: block;
+}
+
+img {
+  display: block;
+  border: 0;
+}
+.header {
+  padding: 30px;
+}
+.welcome{
+  font-size: 18px;
+  font-weight: bold;
+}
+.date {
+  font-size: 18px;
+  font-weight: lighter;
+  color: #979797;
+}
+
+.description {
+  padding-top: 36px;
+  padding-bottom: 24px;
+}
+
+.description-header{
+  font-size: 32px;
+  padding-bottom: 8px;
+}
+
+.description-body {
+  font-size: 20px;
+  padding-bottom: 60px;
+
+}
+
+.video-link, .video-link a {
+  display: inline-block;
+  font-size: 20px;
+}
+.video-link a {
+  color: #2e9be0;
+  padding-bottom: 16px;
 }
